@@ -33,7 +33,7 @@ def build_model():
   survived = survived[survived["gp"]>15]
 
   '''Removes all the extra columns that are not relevant independent variables'''
-  extra_cols = ["survived" , "future impact","season","player_name","index" , "level_0" , "year" , "player_name.1", "player"] 
+  extra_cols = ["survived" , "future impact","season","player_name","index" , "level_0" , "year" , "player"] 
   survived_features = survived.drop(extra_cols , axis = 1)
 
   #survived_features =survived_features[["player_height" , "player_weight" , "age" , "draft_number" , "impact" , "gp"]]
@@ -44,7 +44,7 @@ def build_model():
   '''This drops all the Removes all the extra columns that are not relevant independent variables but takes the full
   dataset because this is for the classifier that predicts whether or not a player will be in the nba five year from now so it needs both survivors
   and non-survivors'''
-  full_features = df.drop(["survived" , "future impact","season","player_name","index","player_name.1","year","player"],axis = 1)
+  full_features = df.drop(["survived" , "future impact","season","player_name","index","year","player"],axis = 1)
 
 
   '''This takes the survival as the dependent variable for the binary classifier'''
