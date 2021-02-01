@@ -9,9 +9,9 @@ Created on Wed Jan 27 00:24:12 2021
 import pandas as pd
 import joblib
 
-import build_model
+from build_model import build_model
 
-import cleandata
+from cleandata import clean_data
 
 def main():
     clean_data()
