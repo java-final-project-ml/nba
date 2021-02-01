@@ -34,7 +34,7 @@ $git clone https://github.com/java-final-project-ml/nba
 
 $cd nba
 
-$pip install requirements.txt
+$pip install -r requirements.txt
 
 $python nbaoutput.py
 ```
