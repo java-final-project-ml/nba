@@ -64,7 +64,7 @@ def main():
     '''
     for i in range(len(df)):
         #Columns that are not relevenat  independent variables are dropped
-        features = df.iloc[i].drop(["survived" , "future impact","season","player_name","index","player_name.1","year","player"]).values.reshape(1, -1)
+        features = df.iloc[i].drop(["survived" , "future impact","season","player_name","index","year","player"]).values.reshape(1, -1)
         '''Player name is matched to list containing the survival prediction from the classifier
             and the future impact 
         '''
