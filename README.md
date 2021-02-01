@@ -1,4 +1,4 @@
-# nba
+# Projecting a player's future  nba performance five years from now
 
 Dataset Link: https://www.kaggle.com/justinas/nba-players-data
 
