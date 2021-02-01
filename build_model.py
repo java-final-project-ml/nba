@@ -1,6 +1,7 @@
 
 '''Import the pandas library for data manipulation'''
 import pandas as pd
+import joblib
 
 def build_model():
 
