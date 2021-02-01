@@ -41,6 +41,11 @@ $python nbaoutput.py
 
 
 
+# Output should looks something like
+![alt text] (https://github.com/java-final-project-ml/nba/blob/main/Screen%20Shot%202021-01-31%20at%2010.27.30%20PM.png?raw=true)
+
+
+
 
 
 
