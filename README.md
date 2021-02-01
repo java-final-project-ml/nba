@@ -31,8 +31,7 @@ It also outputs some sample predictions from both models for some famous nba pla
 
 #Running the program
 
-,,,
-
+```
 $git clone https://github.com/java-final-project-ml/nba
 
 $cd nba
@@ -40,7 +39,7 @@ $cd nba
 $pip install requirements.txt
 
 $python nbaoutput.py
-,,,
+```
 
 
 
