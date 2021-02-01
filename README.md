@@ -27,9 +27,7 @@ It also outputs some sample predictions from both models for some famous nba pla
 
 
 
-
-
-#Running the program
+# Running the program in terminal
 
 ```
 $git clone https://github.com/java-final-project-ml/nba
